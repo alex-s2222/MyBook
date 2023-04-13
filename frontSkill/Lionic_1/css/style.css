@@ -147,3 +147,51 @@ html{
     border-radius: 50%;
     margin-right: 15px;
 }
+
+/* Contact */
+.section-contacts{
+    padding-top: 85px;
+    padding-bottom: 95px;
+}
+
+.section-contact-list{
+    display: flex;
+    margin-top: 43px;
+}
+
+.section-contacts-item{
+    flex: 1 1 33.33%
+}
+
+.section-contacts-info{
+    max-width: 250px;
+}
+
+.section-contacts-icon{
+    display: block;
+    border-bottom: 25px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position:  center left;
+    block-size: auto 100%;
+    background-color: transparent;
+}
+
+.section-contacts-icon-gps{
+    background-image: url(/img/1673762353Beer\ Mug\ 3b.svg);
+    background-size:  auto 35px;
+}
+.section-contacts-icon-phone{
+    background-image: url(/img/1675329967Roblox\ Face.svg);
+    background-size: auto 26px;
+}
+.section-contacts-icon-main{
+    background-image: url(/img/1675710034Wheelchair\ in\ motion.svg);
+    background-size: auto 26px;
+}
+
+.slection-contacts-heading{
+    display: block;
+    margin-bottom: 40px;
+}
+
