@@ -3,7 +3,7 @@ import os
 import time 
 
 """
-Выводит 10 "Honk" (так как стоит sleep(10)) после этого убивает процесс
+Выводит 10 раз "Honk" (так как стоит sleep(10)) после этого убивает процесс
 """
 
 
@@ -24,5 +24,7 @@ if __name__ == '__main__':
     whoami("I'm the main program")
     p = Process(target=loopy, args=("loopy",))
     p.start()
+    print('\tHello')
     time.sleep(10)
+    print('Hello2')
     p.terminate()
