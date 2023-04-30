@@ -5,6 +5,7 @@ import time
 
 """
 Ждет пока все выполниться после этого выводится ответ  
+Перед этим выводится hello
 """
 
 def whoami(what):
@@ -18,3 +19,4 @@ if __name__ == '__main__':
     for i in range(5):
         p = Process(target=whoami, args=(i,))
         p.start()
+    print('Hello')
