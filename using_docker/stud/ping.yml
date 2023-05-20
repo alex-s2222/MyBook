@@ -1,0 +1,7 @@
+-
+  name: Ping module
+  hosts: all
+  tasks:
+  - name: test ping
+    ping:
+
